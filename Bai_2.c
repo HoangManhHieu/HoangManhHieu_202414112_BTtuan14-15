@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 typedef struct Node {
     int data;
     struct Node *left;
@@ -55,4 +54,5 @@ int main() {
     else
         printf("Cay A va Cay C: Khac nhau (Dung)\n");
     return 0;
+
 }
